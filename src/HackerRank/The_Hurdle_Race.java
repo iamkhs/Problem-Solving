@@ -22,7 +22,7 @@ public class The_Hurdle_Race {
         int max = 0;
         int result = 0;
 
-        for (Integer i : height){
+        for (int i : height){
             if (i > max){
                 max  = i;
                 result = max - k;
