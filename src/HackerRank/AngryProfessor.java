@@ -2,7 +2,6 @@ package HackerRank;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class AngryProfessor {
     public static void main(String[] args){
 
@@ -16,19 +15,16 @@ public class AngryProfessor {
 
     }
 
-
     public static String angryProfessor(int k, List<Integer> a) {
         // Write your code here
-        ArrayList<Integer> students = new ArrayList<>(a);
         int count = 0;
 
-        for (Integer student : students) {
+        for (Integer student : a) {
             if (student <= 0) {
                 count++;
             }
         }
 
-        System.out.println("count = "+count);
         if (count < k){
             return "YES";
         }
