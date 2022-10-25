@@ -19,7 +19,7 @@ public class AngryProfessor {
         // Write your code here
         int count = 0;
 
-        for (Integer student : a) {
+        for (int student : a) {
             if (student <= 0) {
                 count++;
             }
