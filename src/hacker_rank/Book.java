@@ -1,4 +1,4 @@
-package HackerRank;
+package hacker_rank;
 
 abstract class Book{
     String title;
