@@ -11,13 +11,11 @@ public class FindTargetAfterSorting {
         System.out.println(targetIndices(nums,target));
     }
 
-    public static List<Integer> targetIndices(int[] nums, int target) {
+    private static List<Integer> targetIndices(int[] nums, int target) {
         Arrays.sort(nums);
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i< nums.length; i++){
-            if (nums[i] == target) {
-                arrayList.add(i);
-            }
+            if (nums[i] == target) arrayList.add(i);
         }
         return arrayList;
     }
