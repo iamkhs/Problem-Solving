@@ -1,5 +1,5 @@
 package leet_code;
-// https://leetcode.com/problems/search-a-2d-matrix/submissions/
+// https://leetcode.com/problems/search-a-2d-matrix/
 public class SearchIn2DMatrix {
     public static void main(String[] args) {
         int[][] nums = {{1,3}};
