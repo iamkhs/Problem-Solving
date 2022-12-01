@@ -30,8 +30,7 @@ public class StringsAreAlike {
 
     // More optimized with 100% faster solution
     private static boolean halvesAreAlike2(String s) {
-        s = s.toLowerCase();
-        char[] ch = s.toCharArray();
+        char[] ch = s.toLowerCase().toCharArray();
         int mid = s.length() / 2;
 
         int count1 = count(ch,0,mid);
