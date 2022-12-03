@@ -2,7 +2,6 @@ package leet_code;
 
 import java.util.ArrayList;
 import java.util.List;
-
 // https://leetcode.com/problems/fizz-buzz/
 public class FizzBuzz {
     public static void main(String[] args) {
