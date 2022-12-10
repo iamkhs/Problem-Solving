@@ -1,11 +1,10 @@
 package leet_code;
+// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
 public class FindEvenDigit {
     public static void main(String[] args){
-
         int [] nums = {12,345,2,6,7896};
         System.out.println(findNumbers(nums));
-
     }
 
     static int findNumbers(int[] nums){
