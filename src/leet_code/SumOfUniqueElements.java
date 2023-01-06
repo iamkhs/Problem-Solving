@@ -23,7 +23,7 @@ public class SumOfUniqueElements {
     }
 
     // brute force
-    private int sumOfUnique2(int[] nums) {
+    private static int sumOfUnique2(int[] nums) {
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<Integer> uniqueArr = new ArrayList<>();
         for (int i : nums){
