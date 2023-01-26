@@ -6,8 +6,8 @@ public class SortList {
 
     /*
     I'm sorry to say that I can't solve this problem with  O(n logN) time complexity,
-    cz I don't know merge sort / quick sort algorithm and
-    without those algorithm it couldn't solve O(n logN) time complexity, and
+    cz I don't know merge sort algorithm and
+    without this algorithm it couldn't solve O(n logN) time complexity, and
     that's why I used simple technique with extra space
      */
 
