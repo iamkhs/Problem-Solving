@@ -19,6 +19,7 @@ public class RemoveListElement {
             }
             curr = curr.next;
         }
+
         return head;
     }
 }
