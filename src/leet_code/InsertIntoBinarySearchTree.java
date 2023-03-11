@@ -2,7 +2,7 @@ package leet_code;
 // https://leetcode.com/problems/insert-into-a-binary-search-tree/description/
 public class InsertIntoBinarySearchTree {
 
-    // Iterative Solution with O(1) space complexity
+    // Iterative Solution with O(1) space complexity and Time Complexity O(logN)
     public TreeNode insertIntoBST(TreeNode root, int val) {
         TreeNode newNode = new TreeNode(val);
         if(root == null) return newNode;
@@ -26,7 +26,7 @@ public class InsertIntoBinarySearchTree {
         return root;
     }
 
-    // Recursive Solution with O(h) space complexity, h stand for height of the tree
+    // Recursive Solution with O(h) space complexity, h stand for height of the tree and Time Complexity O(logN)
     public TreeNode recursiveInsertIntoBST(TreeNode root, int val){
         if(root == null){
             root = new TreeNode(val);
