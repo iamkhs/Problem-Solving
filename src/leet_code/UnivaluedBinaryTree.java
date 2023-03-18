@@ -1,0 +1,16 @@
+package leet_code;
+// https://leetcode.com/problems/univalued-binary-tree/description/
+public class UnivaluedBinaryTree {
+    public boolean isUnivalTree(TreeNode root) {
+        if(root == null) return true;
+
+        if(root.left != null && root.left.val != root.val){
+            return false;
+        }
+
+        if(root.right != null && root.val != root.right.val){
+            return false;
+        }
+        return isUnivalTree(root.left) && isUnivalTree(root.right);
+    }
+}
